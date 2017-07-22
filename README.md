@@ -30,7 +30,7 @@ Git`**
 **After the `});` put**  
 ```js
 bot.on("message", netent => {
-  if (netent.content.startsWith(config.prefix + "hello)) {
+  if (netent.content.startsWith(config.prefix + "hello")) {
     netent.channel.send("Hi!");
   }
 });
