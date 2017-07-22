@@ -18,7 +18,7 @@ let args = netent.content.split(' ').slice(1);
         bot.user.setGame(game).then(()  => netent.channel.send(`**Changed my game to ${game}!**`));
     } else
     if(netent.content.startsWith(config.prefix + 'help')) {
-        netent.channel.send(`__${netent.author.username}__: Check your DMS!\nDo \`\n${config.prefix}invite\`\ to get my Invite!`).then(() => netent.author.send(`**\`\`\`\<====> -Help Message Page 1- <====>\n\n${config.prefix}ping - Ping!\n${config.prefix}help - Shows this message!\`\`\`\n${bot.user.username} was made in the Discord.js Library!\nOur Support Server Invite: https://discord.gg/9KAZxHM**`));
+        netent.channel.send(`__${netent.author.username}__: Check your DMS!\nDo \`\n${config.prefix}invite\`\ to get my Invite!`).then(() => netent.author.send(`**\`\`\`\<====> -Help Message Page 1- <====>\n\n${config.prefix}ping - Ping!\n${config.prefix}help - Shows this message!\n${config.prefix}kick - Kicks a Specified User with a Reason!\n${config.prefix}ban - Bans a Specified User with a Reason!\`\`\`\n${bot.user.username} was made in the Discord.js Library!\nOur Support Server Invite: https://discord.gg/9KAZxHM**`));
     } else
     if(netent.content.startsWith(config.prefix + 'kick')) {
         let user = netent.mentions.users.first();
