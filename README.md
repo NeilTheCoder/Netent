@@ -33,7 +33,8 @@ bot.on("message", netent => {
   if (netent.content.startsWith(config.prefix + "ping")) {
     netent.channel.send("pong!");
   }
-});```
+});
+```
 
 **You can edit that guide :) **  
 
