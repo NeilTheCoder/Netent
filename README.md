@@ -28,8 +28,9 @@ Git`**
 ### Making your Own Command
 **If you're willing to make your Own Command for the Bot, follow this guide.**  
 **After the `});` put**  
-```jsbot.on("message", netent => {
-  if (netent.content.startsWith("ping")) {
+```js
+bot.on("message", netent => {
+  if (netent.content.startsWith(config.prefix + "ping")) {
     netent.channel.send("pong!");
   }
 });```
