@@ -3,5 +3,5 @@
 
 ## About
 **What is Netent?** 
-** - A Multi-Functional Discord Bot!** 
-** - A Simple and Easy Dicord Bot**
+**- A Multi-Functional Discord Bot!** 
+**- A Simple and Easy Dicord Bot**
