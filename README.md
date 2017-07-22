@@ -21,3 +21,25 @@ Git`**
 2. Type `cd path/to/your/bot/folder`on your Terminal on Linux  
 3. Once in the Folder, type on the terminal `npm install discord.js --save`  
 4. Then lastly, run it by typing `node nenent.js` or `node nenent`**
+
+
+## Commands
+
+### Making your Own Command
+**If you're willing to make your Own Command for the Bot, follow this guide.**  
+**After the `});` put**  
+**`bot.on('message', netent => {
+    if(netent.content.startsWith(config.prefix + 'hello')) {
+        netent.reply(`**Hi!**`)
+    }
+});`**
+
+**You can edit that guide :) **  
+
+## Version
+### Current Version
+**1.0.1**
+### Previous Version
+**1.0.0**
+### Next Version
+**1.0.2**
