@@ -30,13 +30,13 @@ Git`**
 **After the `});` put**  
 ```js
 bot.on("message", netent => {
-  if (netent.content.startsWith(config.prefix + "ping")) {
-    netent.channel.send("pong!");
+  if (netent.content.startsWith(config.prefix + "hello)) {
+    netent.channel.send("Hi!");
   }
 });
 ```
 
-**You can edit that guide :) **  
+**You can edit that guide :)**  
 
 ## Version
 ### Current Version
