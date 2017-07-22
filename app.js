@@ -48,6 +48,9 @@ let args = netent.content.split(' ').slice(1);
         if(netent.author.id !== config.ownerID)
             return netent.channel.send(`**You don't have the correct Access Rights! :no_entry_sign:**`);
         netent.channel.send(`**Shutdown was triggered!\nShutting down... :wave:**`).then(() => bot.user.setStatus('invisible').then(() => process.exit(0)));
+    } else
+    if(netent.content.startsWith(config.prefix + 'invite')) {
+        netent.author.send(`**Here\'s my invite!\n=> https://discordapp.com/oauth2/authorize?client_id=${bot.user.id}&scope=bot&permissions=1043472446**`)
     }
 });
 
